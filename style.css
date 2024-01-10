@@ -1,4 +1,9 @@
 
+body{
+    text-align: center;
+}
+
+
 .toppbilde{
     background-image:url(bilder/ultra\ nert\ copy.JPG);
     background-size: cover;
@@ -21,16 +26,16 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-.textbox1 {
-    background-color: #e69595;
+.infobox1 {
+    background-color: #ffffff;
     background-size: cover;
 }
-.textbox2 {
+.infobox2 {
     background-color: #e7afaf;
 }
 
 
-.textposition1{
+.infoposition1{
     position: absolute;
     padding-left: 30px;
     
@@ -45,13 +50,36 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
 
 .button1:hover{
     transition: 1.0s;
     background-color: hsl(226, 77%, 64%);
     
 }
+
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    right: 200px;
+}
+  
+.slide {
+    display: none;
+    
+}
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+  
   
 
 
