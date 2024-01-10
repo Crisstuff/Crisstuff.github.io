@@ -14,8 +14,17 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-.textbox {
+.textbox1 {
     background-color: #e69595;
+}
+.textbox2 {
+    background-color: #e7afaf;
+}
+
+
+.textposition1{
+    position: absolute;
+    
 }
 .button{
     border: 1px solid turquoise;
