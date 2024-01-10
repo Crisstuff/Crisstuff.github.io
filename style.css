@@ -1,4 +1,10 @@
 
+.toppbilde{
+    background-image:url(bilder/ultra\ nert\ copy.JPG);
+    background-size: cover;
+    color: #ffffff;
+}
+
 
 
 .navbar {
@@ -24,13 +30,26 @@
 
 .textposition1{
     position: absolute;
+    padding-left: 30px;
     
 }
-.button{
-    border: 1px solid rgb(43, 52, 51);
-    width: max-content;
+
+.button1 {
+    background-color: #ffffff; /* Green */
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
     text-align: center;
-    background-color: aqua;
-    color : solid black
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.button1:hover{
+    transition: 1.0s;
+    background-color: hsl(226, 77%, 64%);
+    
 }
+  
+
 
