@@ -3,6 +3,7 @@
     background-image:url(bilder/ultra\ nert\ copy.JPG);
     background-size: cover;
     color: #ffffff;
+    text-align: center;
 }
 
 
@@ -22,6 +23,7 @@
 }
 .textbox1 {
     background-color: #e69595;
+    background-size: cover;
 }
 .textbox2 {
     background-color: #e7afaf;
