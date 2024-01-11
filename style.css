@@ -1,6 +1,14 @@
 
 body{
     text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.flex{
+    display: flex;
+	height: 800px;
+	width: 1000px;
+    align-items: center;
 }
 
 
@@ -29,6 +37,7 @@ body{
 .infobox1 {
     background-color: #ffffff;
     background-size: cover;
+    
 }
 .infobox2 {
     background-color: #e7afaf;
@@ -62,7 +71,8 @@ body{
     position: relative;
     max-width: 1000px;
     margin: auto;
-    right: 200px;
+
+    
 }
   
 .slide {
