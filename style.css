@@ -6,11 +6,12 @@ body{
 }
 .flex{
     display: flex;
-	height: 800px;
-	width: 1000px;
     align-items: center;
+    margin: auto;
 }
-
+.boxtekst{
+    margin: auto;
+}
 
 .toppbilde{
     background-image:url(bilder/ultra\ nert\ copy.JPG);
