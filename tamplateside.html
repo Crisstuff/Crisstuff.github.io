@@ -37,14 +37,13 @@
             <button class="sidenav-button" onclick="scrollToNextSection()">Video</button>
             <br>
             <button class="sidenav-button" onclick="scrollToNextSection()">Posters</button>
-            <br>
             
             
         </div>
         <div class="main">
             <div class="section">
                 <!-- Innhold for første seksjon her -->
-                <img onclick="seagullPopup()" src="bilder/m1.JPG" width="300px">
+                <img onclick="bilde1Popup()" src="bilder/m1.JPG" width="300px">
                 <img onclick="seagullPopup()" src="bilder/m1.JPG" width="300px">
                 <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
                 <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
@@ -60,13 +59,11 @@
                 
                 <br>
                 <br>
-                <dialog id="seagullPopUp">
-                    <button id="lukk" onClick="closePopup()">
-                        X
-                    </button>
-                    <img src="bilder/m1.JPG"> 
-                    <br>
-                    <p>sdkmdksjndjfnjkdnkjnsdjk</p>
+                <dialog id="bilde1PopUp">
+                    <button id="lukk" onClick="closePopup()">X</button>
+                    <h1><span id="hake">Måke</span>-Oslo city</h1>
+                    <hr />
+                    <p>skdcmkmnfsdjkn</p>
                 </dialog>
     
                 <dialog id="rPopUp">
@@ -118,7 +115,7 @@
             </div>
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
     
 </body>
 </html>

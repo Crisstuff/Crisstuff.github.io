@@ -10,12 +10,13 @@ function scrollToNextSection() {
     }
 }
 //bilde pop up under 
-function seagullPopup() {
-    var popUp = document.getElementById('seagullPopUp');
-    popUp.showModal();
+function bilde1Popup() {
+    var popUp = document.getElementById('bilde1PopUp');
+    popUp.show();
 }
+
 function closePopup() {
-    var popUp = document.getElementById('seagullPopUp');
+    var popUp = document.getElementById('bilde1PopUp');
     popUp.close();
 }
 
