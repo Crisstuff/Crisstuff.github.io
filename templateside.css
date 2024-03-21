@@ -8,6 +8,7 @@ body {
     top: 0;
     overflow: hidden;
     background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  
 .navbar a {
@@ -72,5 +73,77 @@ body {
  
 .container:hover{
     background-color: #ddd;
+}
+/*side navigasjon for nettsiden */
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    background-color: #c8c4bf;
+    overflow-x: hidden;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fffbfb;
+    display: block;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.sidenav-button{
+    background: none;
+    border: none;
+    padding: 5px 88px;
+    font-size: 40px;
+}
+.sidenav-button:hover{
+    background-color: red;
+}
+
+
+
+
+
+/*hoved ting*/
+.main {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    margin-left: 290px; /* Same as the width of the sidenav */
+    color: #000000;
+}
+
+dialog{
+    height: fit-content;
+    width: fit-content;
+    border: 5px solid #FF8400 ;
+    padding: 0%;
+    background-color: #1C1B20;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bilde-section {
+    padding: 20px;
+    margin: 10px;
+    height: auto; /* Adjust this as needed */
+    scroll-snap-align: start;
+    font-size: 2em;
+}
+.video-section {
+    padding: 20px;
+    margin: 10px;
+    height: 100vh; /* Adjust this as needed */
+    font-size: 2em;
 }
  
