@@ -1,8 +1,8 @@
-body {
-    padding: 0;
+html, body {
     margin: 0;
+    padding: 0;
 }
- 
+/*topp navigasjons bar */
 .navbar {
     position: sticky;
     top: 0;
@@ -74,12 +74,14 @@ body {
 .container:hover{
     background-color: #ddd;
 }
+
 /*side navigasjon for nettsiden */
 .sidenav {
     height: 100%;
     width: 20%;
     position: fixed;
     z-index: 1;
+    padding-top: 30px;
     background-color: #c8c4bf;
     overflow-x: hidden;
     text-align: center;
@@ -113,11 +115,11 @@ body {
 
 /*hoved ting*/
 .main {
-    height: 100vh;
+    height: auto;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     overflow-y: scroll;
-    margin-left: 290px; /* Same as the width of the sidenav */
+    margin-left: 260px; /* Same as the width of the sidenav */
     color: #000000;
 }
 
@@ -132,18 +134,22 @@ dialog{
     border-radius: 2px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.bilde-section {
-    padding: 20px;
+/*Alle sections er under her */
+.section {
+    padding: 5px;
     margin: 10px;
+    background-color: #c8c4bf;
     height: auto; /* Adjust this as needed */
     scroll-snap-align: start;
     font-size: 2em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.video-section {
+.pixel-section {
     padding: 20px;
     margin: 10px;
-    height: 100vh; /* Adjust this as needed */
+    height: auto; /* Adjust this as needed */
     font-size: 2em;
 }
  

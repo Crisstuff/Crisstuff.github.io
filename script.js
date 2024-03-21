@@ -9,13 +9,25 @@ function scrollToNextSection() {
       nextSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 }
-
-function showPopup() {
-    var popUp = document.getElementById('popUp');
+//bilde pop up under 
+function seagullPopup() {
+    var popUp = document.getElementById('seagullPopUp');
     popUp.showModal();
 }
-// function som lukker popup 
 function closePopup() {
-    var popUp = document.getElementById('popUp');
+    var popUp = document.getElementById('seagullPopUp');
+    popUp.close();
+}
+
+
+
+
+//pixel pop up under
+function seagullPopup() {
+    var popUp = document.getElementById('seagullPopUp');
+    popUp.showModal();
+}
+function closePopup() {
+    var popUp = document.getElementById('seagullPopUp');
     popUp.close();
 }

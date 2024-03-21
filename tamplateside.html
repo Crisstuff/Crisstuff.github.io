@@ -32,14 +32,20 @@
         <div class="sidenav">
             <button class="sidenav-button" onclick="scrollToNextSection()">Bilde</button>
             <br>
+            <button class="sidenav-button" onclick="scrollToNextSection()">Pixsel art</button>
+            <br>
             <button class="sidenav-button" onclick="scrollToNextSection()">Video</button>
-            <a href="">pixsel art</a>
+            <br>
+            <button class="sidenav-button" onclick="scrollToNextSection()">Posters</button>
+            <br>
             
             
         </div>
         <div class="main">
-            <div class="bilde-section">
+            <div class="section">
                 <!-- Innhold for første seksjon her -->
+                <img onclick="seagullPopup()" src="bilder/m1.JPG" width="300px">
+                <img onclick="seagullPopup()" src="bilder/m1.JPG" width="300px">
                 <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
                 <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
                 <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
@@ -50,9 +56,7 @@
                 <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
                 <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
                 <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
-                <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
-                <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
-                <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
+                <img onclick="seagullPopup()" src="bilder/m1.JPG" width="300px">
                 
                 <br>
                 <br>
@@ -60,52 +64,9 @@
                     <button id="lukk" onClick="closePopup()">
                         X
                     </button>
-                    <h1><span id="hake">Jafs Tycoon</span>-Info</h1>
-                    <hr />
-                    <p>Gratulerer du har nettop blitt 18 år har 200kr på kontoen  
-                        og har arvet jafs kebab-skjappa til din avdøde onkel. 
-                        Heldigvis for deg får du nesten alle
-                        ingredienser fra lageret og 
-                        grønsakshagen til onkelen din.
-                        Det eneste du mangler for å starte denne 
-                        buisnissen er kebab kjøttet. Så du må begynne 
-                        og tenke kreatift.
-                    </p>
-                    <p><img src="bilder/jafsstart.png"> 
-                        Du kan trykke på dette symbolet 
-                        for å få opp denne informasjonen på nytt 
-                    </p>
-                    <li>
-                        1 Måke-kebab = 50kr
-                    </li>
-                    <li>
-                        1 Rotte-kebab = 20kr
-                    </li>
-                    <li>
-                        1 Katte-kebab = 100kr
-                    </li>
-                    <li>
-                        Normalt kebab-kjøtt = 500kr per trykk
-                    </li>
-                    
-                    <p>Målet ditt er å få kjøpt den nydeleige 
-                        Obsall-Jafs for 100.000kr </p>
-                    <li>
-                        Du kan kjøpe pomfritt for 20kr 
-                        og ha en 25% sjanse til å fange en måke.
-                    </li>
-                    <li>
-                        Du kan kjøpe en rotte felle for 100kr som vi gi deg 1 rotte 
-                        hvert tiende sekund. 
-                    </li>
-                    <li>
-                        Du kan stjele nabo katten for 0kr men få en trist 
-                        nabo som vil få seg en ny katt etter 2min.
-                    </li>
-                    <li>Når du endelig får nokk penger kan du kjøpe ekte 
-                        kebab kjøtt for 1000kr.
-                    </li>
+                    <img src="bilder/m1.JPG"> 
                     <br>
+                    <p>sdkmdksjndjfnjkdnkjnsdjk</p>
                 </dialog>
     
                 <dialog id="rPopUp">
@@ -123,15 +84,35 @@
                 </dialog>
             </div>
             <div class="section">
-                <div class="section2">
-                    <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
-                    <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
-                    <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
-                    <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
-                    <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
-                    <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
+                <div class="pixel-section">
+                    <img onclick="px_jule_måkePopup()" src="pixelart/jule_måke_Cris.gif" width="250px">
+                    <img onclick="px_pintrestPopup()" src="pixelart/pintrest_.png" width="250px">
+                    <img onclick="px_pixel_art_bakrundPopup()" src="pixelart/pixel art bakrund_.png" width="250px">
+                    <img onclick="px_pixel_art_måkePopup()" src="pixelart/pixel art måke_.png" width="250px">
                     <dialog id="kPopUp">
-                        <img src="bilder/catny.jpeg" width="330px" >
+                        <img src="pixelart/jule_måke_Cris.gif" width="330px" >
+                    </dialog>
+                </div>
+            </div>
+            <div class="section">
+                <div class="pixel-section">
+                    <img onclick="px_jule_måkePopup()" src="pixelart/jule_måke_Cris.gif" width="250px">
+                    <img onclick="px_pintrestPopup()" src="pixelart/pintrest_.png" width="250px">
+                    <img onclick="px_pixel_art_bakrundPopup()" src="pixelart/pixel art bakrund_.png" width="250px">
+                    <img onclick="px_pixel_art_måkePopup()" src="pixelart/pixel art måke_.png" width="250px">
+                    <dialog id="kPopUp">
+                        <img src="pixelart/jule_måke_Cris.gif" width="330px" >
+                    </dialog>
+                </div>
+            </div>
+            <div class="section">
+                <div class="pixel-section">
+                    <img onclick="px_jule_måkePopup()" src="pixelart/jule_måke_Cris.gif" width="250px">
+                    <img onclick="px_pintrestPopup()" src="pixelart/pintrest_.png" width="250px">
+                    <img onclick="px_pixel_art_bakrundPopup()" src="pixelart/pixel art bakrund_.png" width="250px">
+                    <img onclick="px_pixel_art_måkePopup()" src="pixelart/pixel art måke_.png" width="250px">
+                    <dialog id="kPopUp">
+                        <img src="pixelart/jule_måke_Cris.gif" width="330px" >
                     </dialog>
                 </div>
             </div>
