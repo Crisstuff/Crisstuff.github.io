@@ -1,12 +1,10 @@
 
 
 //scroll funsjon 
-function scrollToNextSection() {
-    let currentSection = document.querySelector('.section:not([style*="display: none;"])');
-    let nextSection = currentSection.nextElementSibling;
-  
-    if (nextSection) {
-      nextSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+function scrollToSection(sectionId) {
+    let section = document.getElementById(sectionId);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 }
 //bilde pop up under 

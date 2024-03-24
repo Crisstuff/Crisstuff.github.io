@@ -123,7 +123,7 @@ html, body {
     color: #000000;
 }
 
-dialog{
+.bildePopUp{
     height: fit-content;
     width: fit-content;
     border: 5px solid #000000 ;
@@ -133,8 +133,17 @@ dialog{
     padding: 5px;
     border-radius: 2px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
+
+
+
+
 /*Alle sections er under her */
+
+.section.active {
+    display: block;
+  }
 .section {
     padding: 5px;
     margin: 10px;
