@@ -85,13 +85,11 @@ html, body {
     background-color: #c8c4bf;
     overflow-x: hidden;
     text-align: center;
-    font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
     
 .sidenav a {
     text-decoration: none;
-    font-size: 25px;
     color: #fffbfb;
     display: block;
 }
@@ -103,17 +101,20 @@ html, body {
     background: none;
     border: none;
     padding: 5px 88px;
-    font-size: 40px;
+    font-size: 30px;
 }
 .sidenav-button:hover{
     background-color: red;
 }
 
+/*skole hoved ting*/
+.skole-sider{
+    flex: content;
+}
 
 
 
-
-/*hoved ting*/
+/*Webutvikling og design hoved ting*/
 .main {
     height: auto;
     scroll-snap-type: y mandatory;
@@ -161,4 +162,3 @@ html, body {
     height: auto; /* Adjust this as needed */
     font-size: 2em;
 }
- 

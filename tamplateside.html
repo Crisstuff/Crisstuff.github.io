@@ -10,6 +10,7 @@
     <div class="navbar">
         <a href="#home">Home</a>
         <a href="media.html">Meg </a>
+        <a href="">Skole</a>
         <a href="podcast.html">Konseptutvikling og programering</a>
         <a href="logg.html">Produksjon og historiefortelling</a>
         <a href="logg.html">Webutvikling og design</a>
@@ -30,21 +31,21 @@
     </div>
     <div class="content" id="content">
         <div class="sidenav">
-            <button class="sidenav-button" onclick="scrollToNextSection()">Bilde</button>
+            <button class="sidenav-button" onclick="scrollToSection('bilde')">Bilde</button>
             <br>
-            <button class="sidenav-button" onclick="scrollToNextSection()">Pixsel art</button>
+            <button class="sidenav-button" onclick="scrollToSection('pixel')">Pixel art</button>
             <br>
-            <button class="sidenav-button" onclick="scrollToNextSection()">Video</button>
+            <button class="sidenav-button" onclick="scrollToSection('video')">Video</button>
             <br>
-            <button class="sidenav-button" onclick="scrollToNextSection()">Posters</button>
+            <button class="sidenav-button" onclick="scrollToSection('poster')">Posters</button>
             
             
         </div>
         <div class="main">
-            <div class="section">
+            <div class="section" id="bilde">
                 <!-- Innhold for første seksjon her -->
-                <img onclick="bilde1Popup()" src="bilder/m1.JPG" width="300px">
-                <img onclick="seagullPopup()" src="bilder/m1.JPG" width="300px">
+                <img onclick="showPopup('bilde1', 'bildetekst')" id="bilde1" src="bilder/m1.JPG" width="300px">
+                <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
                 <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
                 <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
                 <img onclick="showPopup()" src="bilder/m1.JPG" width="300px">
@@ -67,25 +68,12 @@
                         <img src="bilder/m1.JPG" alt="" width="300px">
                         <p>skdcmkmnfsdjkn</p>
                     </dialog>
-        
-                    <dialog id="rPopUp">
-                        <img src="bilder/ratt.jpeg" width="400px">
-                    </dialog>
-        
-                    <dialog id="mPopUp">
-                        <img src="bilder/seagull.jpeg" width="500px" >
-                    </dialog>
-                    <dialog id="kaPopUp">
-                        <img src="bilder/cat.jpeg" width="330px" >
-                    </dialog>
-                    <dialog id="kPopUp">
-                        <img src="bilder/catny.jpeg" width="330px" >
-                    </dialog>
+
 
                 </div>
             </div>
             <div class="section">
-                <div class="pixel-section">
+                <div class="pixel-section" id="pixel">
                     <img onclick="px_jule_måkePopup()" src="pixelart/jule_måke_Cris.gif" width="250px">
                     <img onclick="px_pintrestPopup()" src="pixelart/pintrest_.png" width="250px">
                     <img onclick="px_pixel_art_bakrundPopup()" src="pixelart/pixel art bakrund_.png" width="250px">
@@ -96,7 +84,7 @@
                 </div>
             </div>
             <div class="section">
-                <div class="pixel-section">
+                <div class="video-section" id="video">
                     <img onclick="px_jule_måkePopup()" src="pixelart/jule_måke_Cris.gif" width="250px">
                     <img onclick="px_pintrestPopup()" src="pixelart/pintrest_.png" width="250px">
                     <img onclick="px_pixel_art_bakrundPopup()" src="pixelart/pixel art bakrund_.png" width="250px">
@@ -107,7 +95,7 @@
                 </div>
             </div>
             <div class="section">
-                <div class="pixel-section">
+                <div class="poster-section" id="poster">
                     <img onclick="px_jule_måkePopup()" src="pixelart/jule_måke_Cris.gif" width="250px">
                     <img onclick="px_pintrestPopup()" src="pixelart/pintrest_.png" width="250px">
                     <img onclick="px_pixel_art_bakrundPopup()" src="pixelart/pixel art bakrund_.png" width="250px">
