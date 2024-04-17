@@ -113,7 +113,7 @@ html, body {
 
 
 
-/*hoved ting*/
+/*felles nettside styling*/
 .main {
     height: auto;
     scroll-snap-type: y mandatory;
@@ -123,6 +123,8 @@ html, body {
     color: #000000;
 }
 
+
+/*Produksjon og historie fortelling styling*/
 .bildePopUp{
     height: fit-content;
     width: fit-content;
@@ -133,32 +135,18 @@ html, body {
     padding: 5px;
     border-radius: 2px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
-
-
-
-/*Alle sections er under her */
-
-.section.active {
+.section.active { /*styling av sectionene på P&H siden*/
     display: block;
   }
 .section {
-    padding: 5px;
     margin: 10px;
     background-color: #c8c4bf;
-    height: auto; /* Adjust this as needed */
-    scroll-snap-align: start;
     font-size: 2em;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.pixel-section {
-    padding: 20px;
-    margin: 10px;
-    height: auto; /* Adjust this as needed */
-    font-size: 2em;
-}
+
  
