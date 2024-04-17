@@ -1,8 +1,9 @@
 
 body{
     text-align: center;
+    color: #000000;
 }
-
+/*hved navigasjons bar sin styling ligger under her*/
 .navbar {
     position: sticky;
     top: 0;
@@ -16,7 +17,8 @@ body{
     padding: 14px 16px;
     text-decoration: none;
 }
- 
+/*dropdown button sin styling ligger under her*/
+
 .dropdown {
     overflow: hidden;
 }
@@ -73,6 +75,14 @@ body{
 .container:hover{
     background-color: #ddd;
 }
+
+
+
+
+
+
+
+
 
 
 

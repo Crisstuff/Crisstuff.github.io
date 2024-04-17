@@ -123,8 +123,16 @@ html, body {
     color: #000000;
 }
 
+/*skole styling ligge under her */
+.yff{
+    background-image: url('bildertilside/');
+}
 
-/*Produksjon og historie fortelling styling*/
+
+
+
+
+/*Produksjon og historiefortelling styling*/
 .bildePopUp{
     height: fit-content;
     width: fit-content;
