@@ -167,6 +167,10 @@ button:hover{
     padding-top: 26%;
     padding-bottom: 26%;
 }
+.teknologi_button{
+    border-color: #000000;
+    /*font-size: 50px;*/
+}
 .yff{
     background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
     width: 20%;
