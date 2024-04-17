@@ -122,6 +122,16 @@ html, body {
     margin-left: 260px; /* Same as the width of the sidenav */
     color: #000000;
 }
+button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+button:hover{
+    background-color: red;
+
+}
 
 /*skole styling ligge under her */
 .skole-sider{
@@ -134,9 +144,7 @@ html, body {
     padding-top: 26%;
     padding-bottom: 26%;
 }
-.konseptutvikling:hover{
-    
-}
+
 .produksjon{
     background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
     width: 20%;
