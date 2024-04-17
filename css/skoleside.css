@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #c8c4bf;
 }
 /*topp navigasjons bar */
 .navbar {
@@ -181,6 +182,11 @@ button:hover{
 
 
 
+/*under her ligger YFF- yrketsfagligfordypning stylingen*/
+.yff-top{
+    background-color: white;
+    text-align: center;
+}
 
 
 /*Produksjon og historiefortelling styling*/
