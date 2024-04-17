@@ -183,9 +183,18 @@ button:hover{
 
 
 /*under her ligger YFF- yrketsfagligfordypning stylingen*/
+.yff-side{
+    text-align: center;
+}
 .yff-top{
     background-color: white;
     text-align: center;
+    width: 80%;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    border-radius: 20px;
+
 }
 
 
