@@ -126,14 +126,45 @@ html, body {
 /*skole styling ligge under her */
 .skole-sider{
     display: flex;
-   
 }
 .konseptutvikling{
-    background-image:url(../bilder/m1.JPG);
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: 20%;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+}
+.konseptutvikling:hover{
+    
+}
+.produksjon{
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: 20%;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+
+}
+.webutvikling{
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: 20%;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+}
+.teknologi{
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: 20%;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
 }
 .yff{
-    background-image:url(bilder/m1.JPG);
-    
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: 20%;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
 }
 
 
