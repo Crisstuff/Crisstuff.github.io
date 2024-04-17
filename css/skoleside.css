@@ -124,8 +124,16 @@ html, body {
 }
 
 /*skole styling ligge under her */
+.skole-sider{
+    display: flex;
+   
+}
+.konseptutvikling{
+    background-image:url(../bilder/m1.JPG);
+}
 .yff{
-    background-image: url('bildertilside/');
+    background-image:url(bilder/m1.JPG);
+    
 }
 
 
