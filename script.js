@@ -8,8 +8,8 @@ function scrollToSection(sectionId) {
     }
 }
 //bilde pop up under 
-function bilde1Popup() {
-    var popUp = document.getElementById('bilde1PopUp');
+function showPopup(popid,descr) {
+    var popUp = document.getElementById(popid);
     popUp.show();
 }
 
