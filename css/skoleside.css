@@ -162,7 +162,8 @@ button:hover{
     padding-bottom: 26%;
 }
 .teknologi{
-    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    background-image:url(../bildertilside/skoleteknologi.jpeg);
+    background-size: cover;
     width: 20%;
     text-align: center;
     padding-top: 26%;
@@ -184,6 +185,7 @@ button:hover{
 
 /*under her ligger YFF- yrketsfagligfordypning stylingen*/
 .yff-side{
+    text-align:left ;
     
 }
 .yff-top{
@@ -195,6 +197,11 @@ button:hover{
     border-radius: 20px;
 
 }
+
+
+
+
+
 
 
 /*Produksjon og historiefortelling styling*/

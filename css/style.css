@@ -80,6 +80,34 @@ body{
 
 
 /*styling til meg.html ligger under her*/
+.meg-side{
+    text-align: left;
+}
+.meg-top{
+    background-color: #e7afaf;
+    width: 80%;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.meg-profil{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
