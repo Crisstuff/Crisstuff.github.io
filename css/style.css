@@ -334,7 +334,7 @@ body{
 
 
 
-
+/*
 .boxtekst{
     margin: auto;
 }
@@ -364,7 +364,7 @@ body{
 
 .button1 {
     background-color: #ffffff; /* Green */
-    border: 1px solid black;
+   /* border: 1px solid black;
     color: rgb(0, 0, 0);
     padding: 15px 32px;
     text-align: center;
@@ -400,7 +400,7 @@ body{
     from {opacity: 0.3}
     to {opacity: 4}
 }
-  
+*/ 
 
 
 

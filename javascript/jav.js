@@ -22,7 +22,7 @@ span.onclick = function() {
 var display = document.getElementById("displaySide")
 
 //under her så prøver jeg å modifisere koden sånn at det gir resultatet jeg ønsker
-var prosjektValg = document.getElementById("valg")
+var prosjektValg= document.getElementById("mittPro")
 var p1 = document.getElementById("Id001")
 var tekst = document.getElementById("underTekst")
 prosjekt-defult-design-prosjekt.onclick = function(){
