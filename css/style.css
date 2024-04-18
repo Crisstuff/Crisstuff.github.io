@@ -1,7 +1,7 @@
 
 body{
-    text-align: center;
-    color: #000000;
+    text-align: center; 
+    color: #000;
 }
 /*hved navigasjons bar sin styling ligger under her*/
 .navbar {
@@ -170,13 +170,22 @@ body{
 }
 .prosjekt-top-tekst{
     text-align: left;
-    padding-top: 200px;
+    padding-top: 150px;
     width: 500px;
 }
 .prosjekt-linker{
     text-align: right;
     top: auto;
-
+}
+.prosjekt-prosjekter{
+    width: 80%;
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.prosjekt-defult-prosjekt{
+    width: 300px;
 }
 
 

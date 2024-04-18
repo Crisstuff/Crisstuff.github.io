@@ -1,19 +1,34 @@
-let slideIndex = 0;
-showSlides();
+// Get the modal
+var modal = document.getElementById("myModal");
 
-function showSlides() {
-  let slides = document.getElementsByClassName("slide");
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+var display = document.getElementById("displaySide")
+
+//under her så prøver jeg å modifisere koden sånn at det gir resultatet jeg ønsker
+var prosjektValg = document.getElementById("valg")
+var p1 = document.getElementById("Id001")
+var tekst = document.getElementById("underTekst")
+prosjekt-defult-design-prosjekt.onclick = function(){
   
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
+}
 
-  slideIndex++;
-
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
-  }
-
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+prosjekt-defult-it-prosjekt.onclick = function(){
+  
 }
