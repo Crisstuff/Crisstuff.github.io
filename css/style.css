@@ -138,18 +138,46 @@ body{
     padding-left: 20px;
 }
 
-
-
-.meg-utdanning{
-    background-color: #1bdd35;
+.meg-utdanning{/*dette er stylingen for stats */
+    background-color: #41f659;
+    background-image: url();
     width: 80%;
     padding: 20px;
     margin-top: 90px;
     margin-left: 10%;
     border-radius: 20px;
-    
 }
 
+/*Prosjekter.html sin stayling ligger under her*/
+.prosjekt-side{
+    text-align: center;
+    background-color: #ddd;
+}
+.prosjekt-top{
+    background-color: #ffffff;
+    width: 80%;
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 10%;
+    border-radius: 20px;
+    text-align: left;
+}
+.prosjekt-top-heifiltere{
+    display: flex;
+}
+.prosjekt-top-filtere{
+    padding-left: 300px;
+}
+.prosjekt-top-tekst{
+    text-align: left;
+    padding-top: 200px;
+    width: 500px;
+}
+.prosjekt-linker{
+    text-align: right;
+    top: auto;
+
+}
 
 
 
@@ -162,6 +190,49 @@ body{
 .bold-under{
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
