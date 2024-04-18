@@ -79,30 +79,89 @@ body{
 /*felles styling til sidene ligger her*/
 
 
+.round-img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+
+
+/*felles linker*/
+.sirkel-1{/*grønn farge til en av sirklene */
+    height: 150px;
+    width: 150px;
+    background-color: #83de8f;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.sirkel-2{
+    height: 150px;
+    width: 150px;
+    background-color: #a79df5;
+    border-radius: 50%;
+    display: inline-block;
+}
+.sirkel-3{
+    height: 150px;
+    width: 150px;
+    background-color: #e49696;
+    border-radius: 50%;
+    display: inline-block;
+}
+.sirkel-tekst{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+    /*forandre på størelse */
+    position: relative;
+    top: 41%;
+    transform: translateY(-50%);
+}
+
+
 /*styling til meg.html ligger under her*/
 .meg-side{
     text-align: left;
 }
 .meg-top{
-    background-color: #e7afaf;
+    display: flex;
     width: 80%;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 10%;
     border-radius: 20px;
 }
+.meg-toptekst{
+    padding-left: 20px;
+}
 
-.meg-profil{
-    display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+
+.meg-utdanning{
+    background-color: #1bdd35;
+    width: 80%;
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 10%;
+    border-radius: 20px;
+    
 }
 
 
 
 
 
-
+/*styling av tekst ligger under her*/
+.bold-topp{
+    font-family: serif;
+    font-size: 60px;
+}
+.bold-under{
+    font-weight: bold;
+}
 
 
 
