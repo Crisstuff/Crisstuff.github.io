@@ -11,6 +11,10 @@ img.onclick = function(){
   captionText.innerHTML = this.alt;
 }
 
+//løsning for id 2 ganger er å bytte til class og da må du modifisere linje 5 og 6
+
+
+
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
