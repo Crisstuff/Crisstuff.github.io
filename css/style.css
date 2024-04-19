@@ -1,5 +1,7 @@
 
 body{
+    margin: 0;
+    padding: 0;
     text-align: center; 
     color: #000;
 }
@@ -9,6 +11,7 @@ body{
     top: 0;
     overflow: hidden;
     background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  
 .navbar a {
