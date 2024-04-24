@@ -99,14 +99,14 @@ body{
     display: inline-block;
 }
 
-.sirkel-2{
+.sirkel-2{/*blå farge til en av sirklene*/
     height: 150px;
     width: 150px;
     background-color: #a79df5;
     border-radius: 50%;
     display: inline-block;
 }
-.sirkel-3{
+.sirkel-3{/*rosa-rød farge til en av sirklene*/
     height: 150px;
     width: 150px;
     background-color: #e49696;
@@ -193,12 +193,6 @@ body{
 .prosjekt-defult-design-prosjekt{
     width: 300px;
 }
-.caption{
-    display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-}
-
 
 
 
@@ -251,9 +245,9 @@ body{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
- }
+}
   
-  #myImg:hover {opacity: 0.7;}
+#myImg:hover {opacity: 0.7;}
   
   /* The Modal (background) */
   .modal {
@@ -289,6 +283,11 @@ body{
     padding: 10px 0;
     height: 150px;
   }
+  .caption{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
   
   /* Add Animation - Zoom in the Modal */
   .modal-content, #caption {
