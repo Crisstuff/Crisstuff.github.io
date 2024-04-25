@@ -166,8 +166,9 @@ body{
 /*skole styling ligge under her */
 .skole-sider{
     display: flex;
+    width: fit-content;
 }
-.konseptutvikling{
+.skole-konseptutvikling{
     background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
     width: fit-content;
     text-align: center;
@@ -175,7 +176,7 @@ body{
     padding-bottom: 26%;
 }
 
-.produksjon{
+.skole-produksjon{
     background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
     width: fit-content;
     text-align: center;
@@ -183,14 +184,14 @@ body{
     padding-bottom: 26%;
 
 }
-.webutvikling{
+.skole-webutvikling{
     background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
     width: fit-content;
     text-align: center;
     padding-top: 26%;
     padding-bottom: 26%;
 }
-.teknologi{
+.skole-teknologi{
     background-image:url(../bildertilside/skoleteknologi.jpeg);
     background-size: cover;
     width: fit-content;
@@ -202,7 +203,7 @@ body{
     border-color: #000000;
     /*font-size: 50px;*/
 }
-.yff{
+.skole-yff{
     background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
     width: fit-content;
     text-align: center;
