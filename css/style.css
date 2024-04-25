@@ -13,6 +13,13 @@ body{
     background-color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+@media screen and (max-width: 580px){
+    div.navbar {
+        display: none
+    }
+}
+@media screen and (min-width: 580px){
+}
  
 .navbar a {
     float: left;
@@ -131,6 +138,7 @@ body{
 /*styling til meg.html ligger under her*/
 .meg-side{
     text-align: left;
+    max-width: fit-content;
 }
 .meg-top{
     display: flex;
