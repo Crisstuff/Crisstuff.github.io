@@ -87,8 +87,6 @@ body{
 }
 
 /*felles styling til sidene ligger her*/
-
-
 .round-img{
     height: 500px;
     width: 500px;
@@ -161,6 +159,66 @@ body{
     margin-left: 10%;
     border-radius: 20px;
 }
+
+
+
+
+/*skole styling ligge under her */
+.skole-sider{
+    display: flex;
+}
+.konseptutvikling{
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: fit-content;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+}
+
+.produksjon{
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: fit-content;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+
+}
+.webutvikling{
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: fit-content;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+}
+.teknologi{
+    background-image:url(../bildertilside/skoleteknologi.jpeg);
+    background-size: cover;
+    width: fit-content;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+}
+.teknologi_button{
+    border-color: #000000;
+    /*font-size: 50px;*/
+}
+.yff{
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: fit-content;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+}
+.skole-button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+.skole-button:hover{
+    background-color: red;
+}
+
 
 /*Prosjekter.html sin stayling ligger under her*/
 .prosjekt-side{

@@ -5,35 +5,36 @@
 
 /*felles width styling*/
 @media screen and (max-width: 600px){
-    div.navbar {
+    .navbar {
         display: none
     }
 }
-
-@media screen and (max-width: 600px){
-    div.meg-side{
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-}
-@media screen and (max-width: 600px){
-    div.meg-top{
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-}
-
-
 /*width styling for Meg.html ligger under her*/
-/*@media screen and (max-width: 600px){
-    div.meg-toptekst {
-        display: none
+@media screen and (max-width: 600px){
+    .meg-side{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 }
-@media screen and (min-width: 600px){
+
+@media screen and (max-width: 600px){
+    .meg-top{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }
+/*width styling for skole.html ligger under her*/
+@media screen and (max-width: 600px){
+    div.skole-sider{
+        width: 100%;
+        
+    }
+}
+
+
+
 
