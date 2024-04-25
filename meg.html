@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="">
     <title>Document</title>
 </head>
 <body>
@@ -42,33 +43,38 @@
                     dskjnksdnkjsndfkjnknskjnskjnjkdnkjnsvjknjksdfnkjvsnjknjknkjnjdndsn
                     dsnknsdknksdncjksdnjkndskjdskndksjnkjsdnkjdnskjndskjnjkdsn
                 </p>
-                <a href="skole.html"><span class="sirkel-1"> <p class="sirkel-tekst">Utdanning</p> </span></a>
-                <a href="skole.html"><span class="sirkel-2"> <p class="sirkel-tekst">Skole</p> </span></a>
-                <a href="skole.html"><span class="sirkel-3"> <p class="sirkel-tekst">Jobb</p> </span></a>
+                <button class="sirkel-1" onclick="scrollToSection('meg-stats')"><p class="sirkel-tekst">Stats</p></button>
+                <button class="sirkel-2" onclick="scrollToSection('meg-jobb')"><p class="sirkel-tekst">Jobb</p></button>
+                <button class="sirkel-3" onclick="scrollToSection('meg-jobb')"><p class="sirkel-tekst">Sosiale medier</p></button>
     
             </div>
         </div>
-        <div class="meg-stats">
+        <div class="meg-stats" id="meg-stats">
             <h1>Stats</h1>
             <b>Informasjon</b>
             <br>
             <p>Fødselsdato: 12.06.2006</p>
             <p>Nåverende utdanning: Vg1 IM-Informasjonsteknologi og medieproduksjon på (F21).</p>
             <p>Nåverende jobb: Ingen</p>
-
             <br>
             <p>Utdanning:</p>
             <li>Vidergående Vg1: IM-Informasjonsteknologi og medieproduksjon (F21)Fyrstikkaleien.</li>
             <li>Vidergående Vg1: Helse og oppvekstfag på Kuben.</li>
             <li>Ungdomskole: Skøyenåsen ungdomskole.</li>
             <li>Barneskole: Trsaopp skole.</li>
-
+    
         </div>
-    
-    
         
-        <div>
+        
+        <div class="meg-jobb" id="meg-jobb">
             <h2>utdanning</h2>
+            <p>Barneskole: trasopp skole</p>
+            <p>ungdomskole: skøyenåsen ungdomskole</p>
+            <p>vidergående :</p>
+        </div>
+        <div class="meg-sosialemedier" id="meg-sosialemedier">
+            <h2>Sosialemedier</h2>
+            <img src="" alt="">
             <p>Barneskole: trasopp skole</p>
             <p>ungdomskole: skøyenåsen ungdomskole</p>
             <p>vidergående :</p>
@@ -77,6 +83,6 @@
        
     </div>
 
-    
+    <script src="javascript/jav.js"></script>
 </body>
 </html>

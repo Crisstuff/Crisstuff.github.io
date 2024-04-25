@@ -97,6 +97,7 @@ body{
     background-color: #83de8f;
     border-radius: 50%;
     display: inline-block;
+    border: none;
 }
 
 .sirkel-2{/*blå farge til en av sirklene*/
@@ -105,6 +106,7 @@ body{
     background-color: #a79df5;
     border-radius: 50%;
     display: inline-block;
+    border: none;
 }
 .sirkel-3{/*rosa-rød farge til en av sirklene*/
     height: 150px;
@@ -112,6 +114,7 @@ body{
     background-color: #e49696;
     border-radius: 50%;
     display: inline-block;
+    border: none;
 }
 .sirkel-tekst{
     font-size: large;
@@ -120,7 +123,7 @@ body{
     color: #000000;
     /*forandre på størelse */
     position: relative;
-    top: 41%;
+    top: 10%;
     transform: translateY(-50%);
 }
 
