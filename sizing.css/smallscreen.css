@@ -1,0 +1,40 @@
+
+
+
+
+
+/*felles width styling*/
+@media screen and (max-width: 600px){
+    .navbar {
+        display: none
+    }
+}
+/*width styling for Meg.html ligger under her*/
+@media screen and (max-width: 600px){
+    .meg-side{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .meg-top{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+/*width styling for skole.html ligger under her*/
+@media screen and (max-width: 600px){
+    div.skole-sider{
+        width: 100%;
+        
+    }
+}
+
+
+
+

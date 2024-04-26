@@ -134,52 +134,7 @@ button:hover{
 
 }
 
-/*skole styling ligge under her */
-.skole-sider{
-    display: flex;
-}
-.konseptutvikling{
-    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
-    width: fit-content;
-    text-align: center;
-    padding-top: 26%;
-    padding-bottom: 26%;
-}
 
-.produksjon{
-    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
-    width: fit-content;
-    text-align: center;
-    padding-top: 26%;
-    padding-bottom: 26%;
-
-}
-.webutvikling{
-    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
-    width: fit-content;
-    text-align: center;
-    padding-top: 26%;
-    padding-bottom: 26%;
-}
-.teknologi{
-    background-image:url(../bildertilside/skoleteknologi.jpeg);
-    background-size: cover;
-    width: fit-content;
-    text-align: center;
-    padding-top: 26%;
-    padding-bottom: 26%;
-}
-.teknologi_button{
-    border-color: #000000;
-    /*font-size: 50px;*/
-}
-.yff{
-    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
-    width: fit-content;
-    text-align: center;
-    padding-top: 26%;
-    padding-bottom: 26%;
-}
 
 
 

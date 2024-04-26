@@ -13,6 +13,13 @@ body{
     background-color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+@media screen and (max-width: 580px){
+    div.navbar {
+        display: none
+    }
+}
+@media screen and (min-width: 580px){
+}
  
 .navbar a {
     float: left;
@@ -80,8 +87,6 @@ body{
 }
 
 /*felles styling til sidene ligger her*/
-
-
 .round-img{
     height: 500px;
     width: 500px;
@@ -97,6 +102,7 @@ body{
     background-color: #83de8f;
     border-radius: 50%;
     display: inline-block;
+    border: none;
 }
 
 .sirkel-2{/*blå farge til en av sirklene*/
@@ -105,6 +111,7 @@ body{
     background-color: #a79df5;
     border-radius: 50%;
     display: inline-block;
+    border: none;
 }
 .sirkel-3{/*rosa-rød farge til en av sirklene*/
     height: 150px;
@@ -112,6 +119,7 @@ body{
     background-color: #e49696;
     border-radius: 50%;
     display: inline-block;
+    border: none;
 }
 .sirkel-tekst{
     font-size: large;
@@ -120,7 +128,7 @@ body{
     color: #000000;
     /*forandre på størelse */
     position: relative;
-    top: 41%;
+    top: 10%;
     transform: translateY(-50%);
 }
 
@@ -128,6 +136,7 @@ body{
 /*styling til meg.html ligger under her*/
 .meg-side{
     text-align: left;
+    max-width: fit-content;
 }
 .meg-top{
     display: flex;
@@ -150,6 +159,67 @@ body{
     margin-left: 10%;
     border-radius: 20px;
 }
+
+
+
+
+/*skole styling ligge under her */
+.skole-sider{
+    display: flex;
+    width: fit-content;
+}
+.skole-konseptutvikling{
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: fit-content;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+}
+
+.skole-produksjon{
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: fit-content;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+
+}
+.skole-webutvikling{
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: fit-content;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+}
+.skole-teknologi{
+    background-image:url(../bildertilside/skoleteknologi.jpeg);
+    background-size: cover;
+    width: fit-content;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+}
+.teknologi_button{
+    border-color: #000000;
+    /*font-size: 50px;*/
+}
+.skole-yff{
+    background-image:url(../produksjonoghistoriefortelling/bilder/m1.JPG);
+    width: fit-content;
+    text-align: center;
+    padding-top: 26%;
+    padding-bottom: 26%;
+}
+.skole-button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+.skole-button:hover{
+    background-color: red;
+}
+
 
 /*Prosjekter.html sin stayling ligger under her*/
 .prosjekt-side{
