@@ -1,10 +1,23 @@
 //scroll funsjon 
+let previousSections = [];
+
 function scrollToSection(sectionId) {
-  let section = document.getElementById(sectionId);
-  if (section) {
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
+    let section = document.getElementById(sectionId);
+    if (section) {
+        // Lagre ID-en til den forrige seksjonen
+        previousSections.push(sectionId);
+        // Vis mål-avsnittet
+        section.style.display = 'flex';
+        // Rull til mål-avsnittet
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' }) 
+    }
 }
+
+
+
+
+
+
 
 
 
