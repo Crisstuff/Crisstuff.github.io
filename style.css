@@ -1,0 +1,19 @@
+.botnav {/* Place the navbar at the bottom of the page, and make it stick */
+    background-color: rgb(216, 77, 95);
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    text-align: center ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.botnav-icon1{/* Style the icons inside the botton navigation bar */
+    padding: 20px ;
+}
+.botnav-icon2{/* Style the icons inside the botton navigation bar */
+    padding: 0px 10px;
+}
+.botnav-p{
+    font-family: Bungee;
+    color:white;
+}
