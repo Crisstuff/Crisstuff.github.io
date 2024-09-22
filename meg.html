@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -17,7 +18,9 @@
     </div>
     <div class="main_page" id="content">
         <div class="meg-top">
-            <img class="round-img" src="bildertilside/profilbilde.jpeg" alt="" width="500px" >
+            <div class="meg-topimg">
+                <img class="meg tioimg" src="bildertilside/profilbilde.jpeg" alt="" style="width: 100%; border-radius: 100%;">
+            </div>
             <br>
             <div class="meg-toptekst">
                 <h1 class="bold-topp">Cristoffer Folkedal.Ramsdal</h1>
@@ -26,25 +29,31 @@
                 <a href="">Github</a>
                 <a href="">Linkedin</a>
                 <a href="">Insta</a>
-                <a class="sirkel-1"  onclick="scrollToSection('stats')"><p class="sirkel-tekst">Utdanning</p></a>
+
+                <a class="sirkel-1"  onclick="scrollToSection('stats')"><p class="sirkel-tekst">Stats</p></a>
+                <a class="sirkel-1"  onclick="scrollToSection('stats')"><p class="sirkel-tekst">Tekst</p></a>
+                <a class="sirkel-1"  onclick="scrollToSection('stats')"><p class="sirkel-tekst">Info</p></a>
+                <a href="skole.html"><span class="sirkel-1"> <p class="sirkel-tekst">Tekst</p> </span></a>
+                <a href="skole.html"><span class="sirkel-2"> <p class="sirkel-tekst">Stats</p> </span></a>
+                <a href="skole.html"><span class="sirkel-3"> <p class="sirkel-tekst">Info </p> </span></a>
                 
 
                 
             </div>
-            <div class="sirkel">
-                <a class="sirkel-1"  onclick="scrollToSection('stats')"><p class="sirkel-tekst">Utdanning</p></a>
-                <a href="skole.html"><span class="sirkel-1"> <p class="sirkel-tekst">Tekst</p> </span></a>
-                <a href="skole.html"><span class="sirkel-2"> <p class="sirkel-tekst">Stats</p> </span></a>
-                <a href="skole.html"><span class="sirkel-3"> <p class="sirkel-tekst">Info </p> </span></a>
-            </div>
         </div>
         <div class="stats" id="stats">
-            <h3>Stats</h3>
-            <li>carisma = 100%</li>
-            <li>html = 70%</li>
-            <li>css = 70%</li>
-            <li>terminal = 20%</li>
-            
+            <div class="stat-info">
+                <h3>STATS</h3>
+                <br><br>
+                <div class="stat"><a>Charisma 100% <div class="background-prosent-bar"><div class="prosent-bar" style="width:100%;">--100%</div></div></a></div>
+                <div class="stat"><a>HTML 50% <div class="background-prosent-bar"><div class="prosent-bar" style="width:50%;">--50%</div></div></a></div>
+                <div class="stat"><a>CSS 50% <div class="background-prosent-bar"><div class="prosent-bar" style="width:50%;">--50%</div></div></a></div>
+                <div class="stat"><a>Javascript 25% <div class="background-prosent-bar"><div class="prosent-bar" style="width:25%;">--25%</div></div></a></div>
+                <div class="stat"><a>Terminal 10% <div class="background-prosent-bar"><div class="prosent-bar" style="width:10%;">--10%</div></div></a></div>
+            </div>
+            <div class="stat-gifs">
+                <img class="meg tioimg" src="https://media.tenor.com/zbW0ALdqk1IAAAAi/spinning-turning.gif" alt="" style="width: 100%;">
+            </div>
         </div>
         <div class="info" id="info">
             <h3>Info</h3>

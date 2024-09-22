@@ -65,12 +65,64 @@ body {
 /* meg styling ligger under her*/
 .meg-top {
     display: flex;
+    width: 100%;
     text-align: left;
 }
+.meg-topimg{
+    width: 50%;
+}
 .meg-toptekst{
-    padding-left: 10%;
+    width: 50%;
+}
+.stats{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 10px;
+    color: greenyellow;
+    padding-bottom: 300px;
+    width: 100%;
+    display: flex;
+}
+.stats-knapp{
+    background-color: black;
+    color: greenyellow;
+    padding: 20px;
+    font-size: large;
+    display: flex;
+}
+.stat{
+    padding: 25px;
+    font-size: 150%;
+    
+}
+.stat-info{
+    width: 50%;
+}
+.stat-gifs{
+    width: 50%;
+}
+.stat:hover{
+    background-color: greenyellow;
+    color: black;
 
+}
+.stats-knapp:hover{
+    background-color: greenyellow;
+    color: black;
+}
 
-
-
+.background-prosent-bar{
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    border-radius: 1px;
+    width: 100%; 
+}
+.prosent-bar{
+    color: green;
+    background-color: greenyellow;
 }
