@@ -3,76 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (min-width: 900px)" href="sizing.css/widescreen.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="sizing.css/smallscreen.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="">Meg </a>
-        <a href="cv.html">CV</a>
-        <a href="skole.html">Skole</a>
-        <a href="prosjekter.html">Prosjekter</a>
-        <div class="dropdown">
-            <button class="dropbtn">Dropdown
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <div class="container">
-                    <label for="darkModeToggle">Dark Mode Toggle</label>
-                    <input type="checkbox" id="darkModeToggle">
-                </div>
-                <a href="#" id="biggerText">Bigger text</a>
-                <a href="#" id="smallerText">Smaller text</a>
-            </div>
+    <div class="topnav">
+        <div class="topnav-menu">
+            <a href="../index.html"> Home</a>
+            <a  class="active" href="meg.html">Om meg</a>
+            <a href="cvogsøknad.html">CV & åpen søknad</a>
+            <a href="prosjekter.html">Prosjekter</a>
         </div>
     </div>
-    <div class="meg-side">
+    <div class="main_page" id="content">
         <div class="meg-top">
-            <img class="round-img" src="bildertilside/profilbilde.jpeg" alt="" >
+            <img class="round-img" src="bildertilside/profilbilde.jpeg" alt="" width="500px" >
             <br>
             <div class="meg-toptekst">
                 <h1 class="bold-topp">Cristoffer Folkedal.Ramsdal</h1>
                 <b>Litt om meg</b>
-                <p >Security: Protecting your site from threats is essential. 
-                    Implementing SSL certificates, regular updates, and security 
-                    plugins enhances safetyckjnsjhndjksnjkhbnjhkndssdjbsdnjhvbshjb
-                    vhjbjhxfbjhvbdjhbsjdhbvhjsbdhjvbhjsdbhjvbhjsbdhjbsvbnhjsbdhjbv
-                    shjbvjhsfnjvsbjhsvb.sdnjkcnskdjnkjdnjksndjkndkjsnjkndsjknjknv
-                    dskjnksdnkjsndfkjnknskjnskjnjkdnkjnsvjknjksdfnkjvsnjknjknkjnjdndsn
-                    dsnknsdknksdncjksdnjkndskjdskndksjnkjsdnkjdnskjndskjnjkdsn
-                </p>
+                <p>Jeg ersmdlfmdsmklmlmklmlmkl</p>
+                <a href="">Github</a>
+                <a href="">Linkedin</a>
+                <a href="">Insta</a>
                 <a class="sirkel-1"  onclick="scrollToSection('stats')"><p class="sirkel-tekst">Utdanning</p></a>
-                <a href=""></a>
-                <a href="skole.html"><span class="sirkel-1"> <p class="sirkel-tekst">Utdanning</p> </span></a>
-                <a href="skole.html"><span class="sirkel-2"> <p class="sirkel-tekst">Skole</p> </span></a>
-                <a href="skole.html"><span class="sirkel-3"> <p class="sirkel-tekst">Jobb</p> </span></a>
-    
-            </div>
-        </div>
-        <div class="meg-section">
-            <div class="meg-section-stats" id="stats">
-                <div class="meg-stats">
-                    <h1>Stats</h1>
-                    <b>Informasjon</b>
-                    <br>
-                    <p>Fødselsdato: 12.06.2006</p>
-                    <p>Nåverende utdanning: Vg1 IM-Informasjonsteknologi og medieproduksjon på (F21).</p>
-                    <p>Nåverende jobb: Ingen</p>
-        
-                    <br>
-                    <p>Utdanning:</p>
-                    <li>Vidergående Vg1: IM-Informasjonsteknologi og medieproduksjon (F21)Fyrstikkaleien.</li>
-                    <li>Vidergående Vg1: Helse og oppvekstfag på Kuben.</li>
-                    <li>Ungdomskole: Skøyenåsen ungdomskole.</li>
-                    <li>Barneskole: Trsaopp skole.</li>
-        
-                </div>
+                
 
+                
+            </div>
+            <div class="sirkel">
+                <a class="sirkel-1"  onclick="scrollToSection('stats')"><p class="sirkel-tekst">Utdanning</p></a>
+                <a href="skole.html"><span class="sirkel-1"> <p class="sirkel-tekst">Tekst</p> </span></a>
+                <a href="skole.html"><span class="sirkel-2"> <p class="sirkel-tekst">Stats</p> </span></a>
+                <a href="skole.html"><span class="sirkel-3"> <p class="sirkel-tekst">Info </p> </span></a>
             </div>
         </div>
+        <div class="stats" id="stats">
+            <h3>Stats</h3>
+            <li>carisma = 100%</li>
+            <li>html = 70%</li>
+            <li>css = 70%</li>
+            <li>terminal = 20%</li>
+            
+        </div>
+        <div class="info" id="info">
+            <h3>Info</h3>
+            <p>Navn: Cristoffer.Folkedal.Ramsdal</p>
+            <p>Født: 12.06.2006</p>
+            <p>Aderesse:<a href=""> Trasoppveien 47 Oslo</a></p>
+            <p>Tlf.n: +47 48188484</p>
+            <p>skole: Furstikkalleen (F21)</p>
+            <p>Studerer: Informasjonsteknologi (IT)</p>
+            <p>Jobb: Gravvask-CEO</p>
+
+
+        </div>
+        <div class="tekst">
+            <h1>Tekst om meg</h1>
+            <p>lag en tekst </p>
+            <p>legg in word dokument </p>
+        </div>
+        <div class="">
+            <h1>Dette er meg</h1>
+            <img onclick="showPopup()" src="produksjonoghistoriefortelling/bilder/m1.JPG" width="300px">
+            <img onclick="showPopup()" src="produksjonoghistoriefortelling/bilder/m1.JPG" width="300px">
+            <img onclick="showPopup()" src="produksjonoghistoriefortelling/bilder/m1.JPG" width="300px">
+            <img onclick="showPopup()" src="produksjonoghistoriefortelling/bilder/m1.JPG" width="300px">
+        </div>
+    </div>
+    <div class="merinfo">
+        <h1>mer info/ fun facts</h1>
+
+    </div>
+        
+    <div class="meg-side">
+        
+    
         <div class="meg-section">
             <div>
                 <h2>utdanning</h2>
@@ -82,6 +88,7 @@
             </div>
 
         </div>
+       
     
     
 
@@ -128,27 +135,19 @@
             </dialog>
         </div>
     </div>
-    <div class="section">
-        <div class="video-section" id="video">
-            <img onclick="px_jule_måkePopup()" src="pixelart/jule_måke_Cris.gif" width="250px">
-            <img onclick="px_pintrestPopup()" src="pixelart/pintrest_.png" width="250px">
-            <img onclick="px_pixel_art_bakrundPopup()" src="pixelart/pixel art bakrund_.png" width="250px">
-            <img onclick="px_pixel_art_måkePopup()" src="pixelart/pixel art måke_.png" width="250px">
-            <dialog id="kPopUp">
-                <img src="pixelart/jule_måke_Cris.gif" width="330px" >
-            </dialog>
+    <div class="botnav">
+        <a href="index.html"> <img src="bilder/logo-1.png" width="400px"></a>
+        <br>
+        <div class="botnav-icon1">
+            <a class="botnav-icon2" href=""><img src="bilder/icons8-insta-480.png" width="31px"></a>
+            <a class="botnav-icon2" href=""><img src="bilder/icons8-facebook-500.png" width="30px"></a>
+            <a class="botnav-icon2" href=""><img src="img/icons8-twitter-circled-500.png" width="30px"></a>
         </div>
-    </div>
-    <div class="section">
-        <div class="poster-section" id="poster">
-            <img onclick="px_jule_måkePopup()" src="produksjonoghistoriefortelling/posters/Typografi_platecover_mal (1).png" width="250px">
-            <img onclick="px_pintrestPopup()" src="produksjonoghistoriefortelling/posters/Typografi_platecover_mal.png" width="250px">
-            <img onclick="px_pixel_art_bakrundPopup()" src="pixelart/pixel art bakrund_.png" width="250px">
-            <img onclick="px_pixel_art_måkePopup()" src="pixelart/pixel art måke_.png" width="250px">
-            <dialog id="kPopUp">
-                <img src="pixelart/jule_måke_Cris.gif" width="330px" >
-            </dialog>
-        </div>
+        <b>Tlf: 48188484</b>
+        <br>
+        <b>E-post: gravvask@gmail.com</b>
+        <p class="botnav-p">© Gravvask.no 2024 - ALL RIGHTS RESERVED</p>
+        
     </div>
 
 
