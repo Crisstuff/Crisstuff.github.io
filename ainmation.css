@@ -19,8 +19,8 @@ body {
 
 .bubbles {
     display: flex;
-    position: relative;
-    z-index: 200;
+
+    z-index: 100;
 }
 
 .bubbles span {
@@ -33,11 +33,16 @@ body {
     box-shadow: 0 0 0 50px #7c69b2, 0 0 50px #7c69b2, 0 0 100px #7c69b2;
     animation: animate var(--random-duration) linear infinite;
 }
-
-
-
 @keyframes animate {
     0% {
         transform: translateY(100vh) scale(3);
     }
+}
+h1{
+    background-color: #f6f9ff00;
+}
+.top{
+    font-size: 100px;
+
+    background-color: rgba(240, 248, 255, 0.245);
 }
