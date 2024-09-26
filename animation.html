@@ -8,34 +8,40 @@
 </head>
 <body>
     <div class="container">
+        
         <div class="bubbles">
-            <span style="--i:11;"></span>
-            <span style="--i:13;"></span>
-            <span style="--i:26;"></span>
-            <span style="--i:15;"></span>
-            <span style="--i:20;"></span>
-            <span style="--i:14;"></span>
-            <span style="--i:19;"></span>
-            <span style="--i:28;"></span>
-            <span style="--i:30;"></span>
-            <span style="--i:21;"></span>
-            <span style="--i:18;"></span>
-            <span style="--i:12;"></span>
-            <span style="--i:16;"></span>
-            <span style="--i:17;"></span>
-            <span style="--i:22;"></span>
-            <span style="--i:14;"></span>
-            <span style="--i:19;"></span>
-            <span style="--i:28;"></span>
-            <span style="--i:30;"></span>
-            <span style="--i:21;"></span>
-            <span style="--i:18;"></span>
-            <span style="--i:12;"></span>
-            <span style="--i:16;"></span>
-            <span style="--i:17;"></span>
-            <span style="--i:22;"></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
+            <span></span><span></span>
         </div>
+
+
     </div>
+    <script>
+        // Randomize the duration of each bubble's animation
+        const bubbles = document.querySelectorAll('.bubbles span');
+        bubbles.forEach(bubble => {
+            const randomDuration = Math.random() * 6 + 5; // Random duration between 5s and 15s
+            bubble.style.setProperty('--random-duration', `${randomDuration}s`);
+        });
+    </script>
     
 </body>
 </html>
