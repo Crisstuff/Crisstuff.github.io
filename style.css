@@ -91,44 +91,6 @@ body {
     width: 50%;
     text-align: left;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* meg.html styling ligger under her*/
-.meg-top {
-    display: flex;
-    width: 100%;
-    text-align: left;
-}
-.meg-topimg{
-    width: 50%;
-}
-.meg-toptekst{
-    width: 50%;
-}
 .stats{
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -179,4 +141,42 @@ body {
 .prosent-bar{
     color: green;
     background-color: greenyellow;
+}
+
+
+
+
+/* meg.html styling ligger under her*/
+.meg-top {
+    display: flex;
+    width: 100%;
+    text-align: left;
+}
+.meg-topimg{
+    width: 50%;
+}
+.meg-toptekst{
+    width: 50%;
+}
+.info{
+    background-color: #e8ad21;
+    border: 3px #0a0908;
+    display: flex;
+    padding: 100px;
+}
+
+/* portfolio.html styling ligger under her*/
+.prosjekter{
+    width: 70%;
+    background-color: aqua;
+    display: flex;
+    padding: 4%;
+}
+.medieproduksjon{
+    background-color: #fb7e00;
+    width: fit-content;
+    padding: 4%;
+    text-align: left;
+    font-size: larger;
+    color: red;
 }
