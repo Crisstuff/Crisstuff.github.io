@@ -2,11 +2,13 @@ body {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
-    background-color: antiquewhite;
-
+    background-color: rgb(0, 0, 0);
+    color: #fce7cc;
+}
+a {
+    color: #FFC77D;
 
 }
-
 
 /*top nav styling ligger under her*/
 .topnav {
@@ -18,26 +20,27 @@ body {
 .topnav a {/* Style the links inside the navigation bar */
     float: left;
     display: block;
-    color: rgb(192, 173, 173);
+    color: #FFC77D;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 .topnav a:hover {/* Change the color of links on hover */
-    background-color: #e8ad21;
-    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    color: #fce7cc;
     transition: 0.6s;
 }
 .topnav a.active {/* Style the "active" element to highlight the current page */
-    background-color: chocolate;
-    color: white;
+
+    text-decoration: underline;
+    color: #fce7cc;
 }
 
 
 
 .botnav {/* Place the navbar at the bottom of the page, and make it stick */
-    background-color: rgb(216, 77, 95);
+    background-color: #000000;
     overflow: hidden;
     bottom: 0;
     width: 100%;
@@ -45,16 +48,7 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.botnav-icon1{/* Style the icons inside the botton navigation bar */
-    padding: 20px ;
-}
-.botnav-icon2{/* Style the icons inside the botton navigation bar */
-    padding: 0px 10px;
-}
-.botnav-p{
-    font-family: Bungee;
-    color:white;
-}
+
 
 
 /* index.html styling ligger under her*/
