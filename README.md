@@ -1,6 +1,7 @@
 # Crisstuff.github.io
 ## Dette er portfolio nettsiden min 
 [link til portfolio nettsiden min](https://crisstuff.github.io)
+## Status = i start fasen ikke ferdig eller presentanel
 
 ### Hva er inneholder denne nettsiden? 
 * Forklaring av innhodet til denne nettsiden
