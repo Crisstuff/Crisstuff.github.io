@@ -9,10 +9,9 @@
 <body>
     <div class="topnav">
         <div class="topnav-menu">
-            <a href="">Cristoffer Ramsdal</a>
-            <a class="active" href="../index.html"> Hjem</a>
+            <a class="active" href="../index.html"> Cristoffer Ramsdal</a>
             <a href="meg.html">Om meg</a>
-            <a onclick="scrollToSection('stats')">Stats</a>
+            <a href="index.html#stats">Stats</a>
             <a href="portfolio.html">Portfolio</a>
         </div>
     </div>
@@ -47,22 +46,23 @@
 
         </div>
         <h1>Stats</h1>
-        <div class="stats" id="stats">
-            <div class="stat-info">
-                <h3>STATS</h3>
-                <br><br>
-                <div class="stat"><a>Charisma 100% <div class="background-prosent-bar"><div class="prosent-bar" style="width:100%;">-100%</div></div></a></div>
-                <div class="stat"><a>Front-End Development 50% <div class="background-prosent-bar"><div class="prosent-bar" style="width:50%;">-50%</div></div></a></div>
-                <div class="stat"><a>Back-End Development 50% <div class="background-prosent-bar"><div class="prosent-bar" style="width:50%;">-50%</div></div></a></div>
-                <div class="stat"><a>Database & Testing 25% <div class="background-prosent-bar"><div class="prosent-bar" style="width:25%;">-25%</div></div></a></div>
-                <div class="stat"><a>Terminal 10% <div class="background-prosent-bar"><div class="prosent-bar" style="width:10%;">-10%</div></div></a></div>
+        <section id="stats">
+            <div class="stats">
+                <div class="stat-info">
+                    <h3>STATS</h3>
+                    <br><br>
+                    <div class="stat"><a>Charisma 100% <div class="background-prosent-bar"><div class="prosent-bar" style="width:100%;">-100%</div></div></a></div>
+                    <div class="stat"><a>Front-End Development 50% <div class="background-prosent-bar"><div class="prosent-bar" style="width:50%;">-50%</div></div></a></div>
+                    <div class="stat"><a>Back-End Development 50% <div class="background-prosent-bar"><div class="prosent-bar" style="width:50%;">-50%</div></div></a></div>
+                    <div class="stat"><a>Database & Testing 25% <div class="background-prosent-bar"><div class="prosent-bar" style="width:25%;">-25%</div></div></a></div>
+                    <div class="stat"><a>Terminal 10% <div class="background-prosent-bar"><div class="prosent-bar" style="width:10%;">-10%</div></div></a></div>
+                </div>
+                <div class="stat-gifs">
+                    <img class="meg tioimg" src="https://media.tenor.com/zbW0ALdqk1IAAAAi/spinning-turning.gif" alt="" style="width: 100%;">
+                </div>
             </div>
-            <div class="stat-gifs">
-                <img class="meg tioimg" src="https://media.tenor.com/zbW0ALdqk1IAAAAi/spinning-turning.gif" alt="" style="width: 100%;">
-            </div>
-        </div>
-
-        <a href="portfolio.html">Klikk for portfolio</a>
+            <!-- Stat menu -->
+        </section>
         
 
         
@@ -72,7 +72,21 @@
     <div class="botnav">
         <p class="botnav-p">Dette nettstedet er designet av <a href="">Cristoffer Folkedal Ramsdal</a> |© 2024 Alle rettigheter forbeholt</p>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get the hash from the URL
+            var hash = window.location.hash;
     
+            // If there's a hash, scroll to the corresponding element
+            if (hash) {
+                var targetElement = document.querySelector(hash);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+    </script>
     
 
 
