@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <style>
+        /* Grundleggende styling for layout */
+      
+
+        .media-side {
+            
+            background-color: #ffffff;
+            margin: 20px;
+            gap: 10px;
+            padding: 3%;
+            justify-content: center;
+            flex-direction: row;
+            position: relative;
+        }
+        b{
+            font-size: 30px;
+        }
+        .top{
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .flex {
+            display: flex;
+            flex-wrap: wrap; /* Make the items wrap if needed */
+            gap: 10px;
+            width: 100%;
+        }
+
+        .exit-button {
+            color: #ff0000;
+            background: none;
+            border: none;
+            position: sticky;
+            text-align: left;
+            font-size: 50px;
+            top: 0;
+            left: 0;
+            padding: 5px;
+        }
+
+        .m-Oversikt,
+        .m-Ressurser,
+        .m-Samarbeidspartnere,
+        .m-logg,
+        .m-status,
+        .m-resultat {
+            text-align: center;
+            color: ;
+            border: 3px solid rgb(0, 0, 0);
+            background-color: #d706c55d;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 10px;
+            padding: 50px;
+            min-width: min-content;
+            max-width: max-content;
+            flex: 1 1 300px;
+        }
+
+        .midt-tekst {
+            font-size: 20px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .left-tekst {
+            font-size: 20px;
+            text-align: left;
+        }
+
+        /* Media queries for responsiveness */
+        @media (max-width: 668px) {
+            .m-Oversikt,
+            .m-Ressurser,
+            .m-Samarbeidspartnere,
+            .m-logg,
+            .m-status,
+            .m-resultat {
+                flex: 1 1 100%;
+                min-width: fit-content;
+                max-width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <button class="exit-button" onclick="reloadPage()"> X </button>
+    <div id="lyd-design" class="media-side">
+        <h1 class="top">Lyd design</h1><br><br><br>
+        <div class="flex">
+            <div class="m-Oversikt">
+                <b>Oversikt</b>
+                <p class="left-tekst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, similique. Dolorum qui error a cupiditate dolorem dolores autem ab facilis excepturi ut quia, nulla enim et dignissimos eligendi veniam perferendis?</p>
+            </div>
+            <div class="m-Ressurser"><b>Resursser</b><p class="midt-tekst">python</p></div>
+            <div class="m-Samarbeidspartnere"><b>Samarbeidspartnere</b><p class="midt-tekst">Ingen</p></div>
+            <div class="m-logg"><b>Logg</b><p class="midt-tekst">ingen</p></div>
+            <div class="m-status"><b>Status</b><img src="" alt=""><p class="midt-tekst">Komplett</p></div>
+            <div class="m-resultat">
+                <b>Resultat</b>
+                <p class="midt-tekst"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente dolorum aut obcaecati qui officiis nisi neque tempore, aliquid corrupti saepe deserunt nulla provident maiores ullam nesciunt sint reprehenderit error.  </p> 
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+        // Function to reload the page
+        function reloadPage() {
+            window.location.reload();
+        }
+
+        window.addEventListener('load', () => {
+            const flexContainer = document.querySelector('.flex');
+            const mediaSide = document.querySelector('.media-side');
+
+            function checkElementPosition() {
+                const mediaSideRect = mediaSide.getBoundingClientRect();
+                const flexRect = flexContainer.getBoundingClientRect();
+
+                // Check if the flex container is outside the bounds of the media-side container
+                if (flexRect.bottom > mediaSideRect.bottom || flexRect.right > mediaSideRect.right) {
+                    flexContainer.style.display = 'block'; // Change to block if out of bounds
+                } else {
+                    flexContainer.style.display = 'flex'; // Keep it as flex if it's inside bounds
+                }
+            }
+
+            // Check position on resize and scroll events
+            window.addEventListener('resize', checkElementPosition);
+            window.addEventListener('scroll', checkElementPosition);
+
+            // Initial check
+            checkElementPosition();
+        });
+    </script>
+
+</body>
+</html>

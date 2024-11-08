@@ -1,0 +1,80 @@
+.media-side {
+            
+    background-color: #ffffff;
+    margin: 20px;
+    gap: 10px;
+    padding: 3%;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+}
+
+
+.top{
+    text-align: center;
+    font-size: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* Make the items wrap if needed */
+    gap: 10px;
+    width: 100%;
+}
+
+.exit-button {
+    color: #ff0000;
+    background: none;
+    border: none;
+    position: sticky;
+    text-align: left;
+    font-size: 50px;
+    top: 0;
+    left: 0;
+    padding: 5px;
+}
+
+.m-Oversikt,
+.m-Ressurser,
+.m-Samarbeidspartnere,
+.m-logg,
+.m-status,
+.m-resultat {
+    text-align: center;
+    
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #d706c55d;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    padding: 50px;
+    min-width: min-content;
+    max-width: max-content;
+    flex: 1 1 300px;
+}
+
+.midt-tekst {
+    font-size: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.left-tekst {
+    font-size: 20px;
+    text-align: left;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 668px) {
+    .m-Oversikt,
+    .m-Ressurser,
+    .m-Samarbeidspartnere,
+    .m-logg,
+    .m-status,
+    .m-resultat {
+        flex: 1 1 100%;
+        min-width: fit-content;
+        max-width: 100%;
+    }
+}
