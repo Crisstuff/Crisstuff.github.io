@@ -1,86 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ditt eventyrspill</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="test.css">
 </head>
 <body>
-    <div class="topnav">
-        <div class="topnav-menu">
-            <a href="index.html"> Cristoffer Ramsdal</a>
-            <a href="meg.html">Om meg </a>
-            <a href="index.html#stats">Stats</a>
-            <a class="active" href="portfolio.html">Portfolio</a>
-        </div>
-    </div>
-    <div class="main_page" id="content">
-        <h1>Mine Prosjekter</h1>
-        <!--
-        <div class="prosjekter">
-            <div id='123'>
-                <h2>Content for ID: 123</h2>
-                <div class='content' data-folder='folder1'>
-                    <p>File from folder 'folder1': path/to/folder1/123.txt</p>
-                </div>
-                <div class='content' data-folder='folder2'>
-                    <p>File from folder 'folder2': path/to/folder2/123.txt</p>
-                </div>
-            </div>
-        -->
-            <div id="123">
-                <div class="bilder">Bilder Content: Image content for ID 123</div>
-                <div class="linker">Linker Content: Link content for ID 123</div>
-                <div class="tekst">Tekst Content: Text content for ID 123</div>
-                <div class="tema">Tema Content: Theme content for ID 123</div>
-                <div class="verktøy">Verktøy Content: Tool content for ID 123</div>
-            </div>
-            <!--
-            <div>
-                tema = id1, id2, id3 eller id4
-                bilder = id1
-                linker = id1
-                tekst = id1 
-                verktøy = id1
-
-            </div>
-            -->
-
-
-        <!-->
-            <div class="medieproduksjon">
-                <a href="meg.html"><img src="bildertilside/icons8-github-120.png" alt=""> <br>Pixel art <br><p>Photoshop</p></a>
-            </div>
-            <div class="medieproduksjon">
-                <a href="meg.html"><img src="bildertilside/icons8-github-120.png" alt=""> <br>Pixel art <br><p>Photoshop</p></a>
-            </div>
-            <div class="medieproduksjon">
-                <a href="meg.html"><img src="bildertilside/icons8-github-120.png" alt=""> <br>Pixel art <br><p>Photoshop</p></a>
-            </div>
-            <div class="medieproduksjon">
-                <a href="meg.html"><img src="bildertilside/icons8-github-120.png" alt=""> <br>Pixel art <br><p>Photoshop</p></a>
-            </div>
-            <div class="medieproduksjon">
-                <a href="meg.html"><img src="bildertilside/icons8-github-120.png" alt=""> <br>Pixel art <br><p>Photoshop</p></a>
-            </div>
-            
-        </div>
-
-        <div class="">
-            <p>pixel art</p>
-            <p>lyd design </p>
-            <p>logo </p>
-            <p>2d platformer</p>
-            <p>Github prosjekter</p>
-            <p>CV</p>
-        </div>
-
-    </div>
-
-    <div class="botnav">
-        <p class="botnav-p">© Gravvask.no 2024 - ALL RIGHTS RESERVED</p>
-        
-    </div>
+    <div id="story-container"></div>
+    <script src="script.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            const flexContainer = document.querySelector('.flex');
+            const mediaSide = document.querySelector('.media-side');
+    
+            function checkElementPosition() {
+                const mediaSideRect = mediaSide.getBoundingClientRect();
+                const flexRect = flexContainer.getBoundingClientRect();
+    
+                // Check if the flex container is outside the bounds of the media-side container
+                if (flexRect.bottom > mediaSideRect.bottom || flexRect.right > mediaSideRect.right) {
+                    flexContainer.style.display = 'block'; // Change to block if out of bounds
+                } else {
+                    flexContainer.style.display = 'flex'; // Keep it as flex if it's inside bounds
+                }
+            }
+    
+            // Check position on resize and scroll events
+            window.addEventListener('resize', checkElementPosition);
+            window.addEventListener('scroll', checkElementPosition);
+    
+            // Initial check
+            checkElementPosition();
+        });
+    </script>
 </body>
 </html>
