@@ -1,0 +1,124 @@
+body{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: #0F302B;
+    color: #ffffff;
+    padding: 20px;
+}
+nav a{
+    background-color: #0F302B;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+}
+.Nav-Active{
+    font-size: 30px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+button{
+    background-color: #0F302B;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+}
+.knapp1{
+    font-size: 30px;
+    padding: 28px;
+    padding-right: 300px;
+}
+
+.mittNavnER{
+    background-color: #ffffff;
+    display: flex;
+    padding: 3%;
+    width: 90%;
+}
+.mittNavnER-left{
+    text-align: left;
+    width: 70%;
+}
+.mittNavnER-rigth{
+    text-align: center;
+    width: 30%;
+}
+
+.prosjekter{
+    padding: 30px;
+    background-color: #0F302B;
+    color: #ffffff;
+}
+.prosjekter-side{
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.prosjekt-team{
+    background-color: #78B5AC;
+    color: #ffffff;
+    text-align: center;
+    width: 33%;
+    padding-bottom: 50px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.prosjekt-team button{ /* Denne knappen er for en alternativ styling av knappen på prosjekt intro*/
+    width: 90%;
+    font-size: 15px;
+    margin: 10px;
+
+}
+.prosjekt-team a{/*Denne er for styling av en potensiell frerdig knappen som tar deg til sidene*/
+    width: 90%;
+    background-color: #0F302B;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    padding: 28px;
+    margin: 10px;
+
+}
+
+
+.kontakt-info{
+    background-color: #DAC5D3;
+    padding: 225px 0;
+    text-align: center;
+}
+.bilder{
+    padding: 30px;
+    color: #ffffff;
+    background-color: #BD82A0;
+}
+
+.omMeg{
+    padding: 40px;
+    background-color: #BD82A0;
+    color: #ffffff;
+}

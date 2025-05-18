@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .image-container img {
+            flex-grow: 1;
+            object-fit: cover;
+            transition: all 0.3s ease;
+            min-width: 70px;
+            height: auto;
+        }
+
+        @media (max-width: 600px) {
+            .image-container {
+                flex-direction: column;
+            }
+            .image-container img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="Nav-Active" href="">About</a>
+        <a href="index.html">Main</a>
+        <a href="Porsjekter.html">Prosjekter</a>
+        <a href="CV.html">CV</a>
+    </nav>
+    <main>
+        <div class="Cristoffer.F.Ramsdal">
+            <h1>Cristoffer.Folkedal.Ramsdal</h1>
+            <h2>Født: 12.06.2006</h2>
+            <h2>Bosted: Oslo bydeløstensjø</h2>
+            <h2>Tittle: Lærling</h2>
+            <h2>: Lærling hos statnett fra april.2025 til </h2>
+            <br><br><br><br>
+            <h3>Linker:</h3>
+
+        </div>
+        <p>legg til en kopi av Erfaringer uten les mer knappen</p>
+        <div class="bilder">
+            <h1>Hvor stillig kan han være?</h1>
+            <div class="image-container" id="imageContainer">
+
+                <img src="bilder/pintrest_1.png" alt="Image 2">
+                <img src="bilder/DeWatermark.ai_1726827995337.png" alt="Image 3">
+                <img src="bilder/Screenshot 2024-09-20 at 12.21.43.png" alt="Image 4">
+                <img src="https://via.placeholder.com/300" alt="Image 5">
+                <img src="https://via.placeholder.com/300" alt="Image 6">
+            </div>
+        </div>
+
+        <div class="kontakt-info">
+            <p>ta kontakt med meg</p>
+            <h1>Kontakt info</h1>
+            <br><br><br><br>
+            <p>+47 481 88 484</p>
+            <p>cristofferfolkedalrramsdal@gmail.com</p>
+        </div>
+    </main>
+    <script>
+        function adjustImageSizes() {
+            const images = document.querySelectorAll('.image-container img');
+            const totalWidth = document.querySelector('.image-container').clientWidth;
+            const sizes = [0.4, 0.3, 0.2, 0.1,];
+
+            images.forEach((img, index) => {
+                img.style.flexBasis = `${sizes[index] * totalWidth}px`;
+            });
+        }
+
+        window.addEventListener('resize', adjustImageSizes);
+        window.addEventListener('load', adjustImageSizes);
+    </script>
+
+    
+</body>
+</html>
